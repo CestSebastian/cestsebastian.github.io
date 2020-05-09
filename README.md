@@ -1,1 +1,1 @@
-https://cestsebastian.github.io/
+https://www.sebastianrus.com/
