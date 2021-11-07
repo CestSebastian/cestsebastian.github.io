@@ -2,7 +2,6 @@ body {
 	background-color: #100000;
 	color: #cecefe;
 	font-family: sans-serif;
-	text-align: center;
 	margin: 0;
 }
 
@@ -15,9 +14,13 @@ a:hover {
 	text-decoration: wavy underline;
 }
 
+section {
+	margin: 0 auto;
+	width: 1000px;
+}
+
 nav section {
-	border-bottom: 1px solid #000000;
+	border-bottom: 1px solid #ff0000;
 	font-size: 2em;
 	padding: 25px 0px;
-	width: 1000px;
 }
