@@ -1,11 +1,15 @@
 body {
-	background-color: black;
-	color: white;
-	font-size: 200%;
+	background-color: #100000;
+	color: #cecefe;
 	font-family: sans-serif;
 	text-align: center;
 }
 
 a {
-	color: white;
+	color: #cecece;
+}
+
+a:hover {
+	color: #fefefe;
+	text-decoration: wavy underline;
 }
