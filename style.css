@@ -14,3 +14,10 @@ a:hover {
 	color: #fefefe;
 	text-decoration: wavy underline;
 }
+
+nav section {
+	border-bottom: 1px solid #000000;
+	font-size: 2em;
+	padding: 25px 0px;
+	width: 1000px;
+}
