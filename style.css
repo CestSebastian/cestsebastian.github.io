@@ -1,27 +1,30 @@
 body {
-	background-color: #100000;
-	color: #cecefe;
-	font-family: sans-serif;
-	margin: 0;
+  font-family: sans-serif;
+  margin: 0;
+  background-image: url('bg.jpg');
+  background-size: cover;
+  height: 100vh;
+  contain: content;
 }
 
 a {
-	color: #cecece;
 	text-decoration: none;
 }
 
 a:hover {
-	color: #fefefe;
 	text-decoration: wavy underline;
 }
 
 section {
-	margin: 0 auto;
-	width: 1000px;
+  margin: 50px auto;
+  width: 1000px;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 25px;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
 }
 
 nav section {
-	border-bottom: 1px solid #ff0000;
 	font-size: 2em;
-	padding: 25px 0px;
 }
